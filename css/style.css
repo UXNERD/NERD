@@ -13,7 +13,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 220px;
 }
 .container {
   border-radius: 50%;
@@ -30,6 +30,7 @@ body {
   position: absolute;
   top: 390px;
   width: 100%;
+  overflow: hidden;
 }
 .container:hover {
   transform: scale(0.54);
